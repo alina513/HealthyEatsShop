@@ -4,6 +4,7 @@
   | default @import url()
   |============================
 */
+/* 
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
@@ -22,4 +23,39 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
+} */
+
+
+
+/* Variables/roots/base-styles */
+@import url('./variables.css');
+
+/* Reset */
+@import url('./reset.css');
+
+/* Header */
+@import url('./header.css');
+
+/* Hero */
+@import url('./hero.css');
+
+/* How it works */
+@import url('');
+
+/* TO ORDER YOUR VEGETABLE BASKET */
+@import url('./to-order.css');
+
+/* Easy Steps for Buying Fresh Vegetables */
+@import url('./easy-steps.css');
+
+/* ORGANIC VEGETABLES */
+@import url('../css/vegetables.css');
+
+/* We will call you */
+@import url('wewillcall.css');
+
+/* Footer */
+@import url('./footer.css');
+
+/* Modal window */
+@import url('./modal.css');
